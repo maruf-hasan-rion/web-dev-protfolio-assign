@@ -10,8 +10,8 @@
 /* shared css */
 .section-title {
     color: rgb(13, 19, 33);
-    font-size: 26px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 800;
     text-align: center;
     margin: 30px auto;
 }
@@ -120,5 +120,82 @@ nav button {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 16px;
+}
 
+/* insperation section */
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin: 20px 150px;
+}
+
+iframe {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+/* current target section */
+.current-target {
+    margin: 50px 150px;
+    padding: 50px;
+}
+
+.target-div {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+.target-inner-div {
+    padding: 20px;
+    gap: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-title {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+.target-description {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    opacity: 0.7;
+    margin: 10px 0;
+}
+
+/* next-target-div */
+
+.next-target {
+    margin: 50px 150px;
+    padding: 50px;
+}
+
+/* .next-target-divs {
+    margin-bottom: 20px;
+} */
+
+.next-target-div {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-right: 20px;
 }
